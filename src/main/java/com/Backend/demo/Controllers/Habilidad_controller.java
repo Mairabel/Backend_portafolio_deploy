@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/habilidad")
-@CrossOrigin(origins = "https://frontendmyportafoliodepl-45ec8.web.app")
+@CrossOrigin(origins = "http://localhost:8080")
 public class Habilidad_controller {
     @Autowired
     private Habilidad_repository habilidad_repository;
